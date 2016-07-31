@@ -1,0 +1,40 @@
+html,body{
+    min-height: 100vh;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+.center-crop{
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size:cover;
+}
+
+.complete-screen{
+    min-height: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.transparent-panel{
+  background: rgba(0,0,0,0.6);
+}
+
+.vertical-center{
+    vertical-align: middle;
+}
+
+.horizontal-text-center{
+    text-align: center;
+}
+
+.clickable{
+    cursor: pointer;
+}
+
+div .txtcarga{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
